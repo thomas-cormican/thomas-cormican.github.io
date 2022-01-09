@@ -55,16 +55,22 @@ body {
   display: inline-block;
 }
 
+.links p:not(:last-child) {
+  margin-right: 20px;
+}
+
 .links a {
   color: #dcddde;
   text-decoration: none;
-  padding: 10px;
 }
 
 @media screen and (max-width: 450px) {
   .links a {
     font-size: 0.9rem;
-    padding: 2px;
+  }
+  
+  .links p:not(:last-child) {
+    margin-right: 8px;
   }
 }
 
