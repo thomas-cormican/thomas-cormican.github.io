@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="img/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="img/android-chrome-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5c7f54bcd2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Code Pro</title>
+  </head>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar__content">
+        <a class="navbar__logo" href="">Code Pro</a>
+        <span>
+          <ul class="navbar__links">
+            <i class="far fa-times-circle" onclick="slideToggle()"></i>
+            <li class="navbar__link" onclick="slideOut()">
+              <a href="">Home</a>
+            </li>
+            <li class="navbar__link" onclick="slideOut()">
+              <a href="#about">About Us</a>
+            </li>
+            <li class="navbar__link" onclick="slideOut()">
+              <a href="#courses">Courses</a>
+            </li>
+            <li class="navbar__link" onclick="slideOut()">
+              <a href="#enroll">Enroll</a>
+            </li>
+            <li class="navbar__link" onclick="slideOut()">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="navbar__close" onclick="slideToggle()"></div>
+          <i class="fas fa-bars" onclick="slideToggle()"></i>
+        </span>
+      </div>
+    </nav>
+    <div class="header__row">
+      <div class="header__col">
+        <div class="header__text">
+          <h1>
+            Learn to code<br />
+            <span>Like a pro.</span>
+          </h1>
+          <p>
+            At code pro we seek to provide top quality education
+            <br class="header__text__break" />
+            for ambitious learners
+          </p>
+          <a class="button" href="">Enroll now</a>
+        </div>
+      </div>
+      <div class="header__col">
+        <img class="header__image header__image-1" src="img/header-img-1.svg" />
+        <img class="header__image header__image-2" src="img/header-img-2.svg" />
+      </div>
+    </div>
+    <a class="down-button"><i class="fas fa-chevron-down"></i></a>
+  </header>
+  <section id="about" class="about">
+    <h2>Why learn with us?</h2>
+    <div class="about__row about__row-1">
+      <div class="about__col about__col-1">
+        <img src="img/teaching.svg" />
+      </div>
+      <div class="about__col about__col-2">
+        <div class="about__box">
+          <h3>Teachers</h3>
+          <p>
+            We have a wide array of tutors ready to help students out with any
+            problems that they may have during their education.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="about__row about__row-2">
+      <div class="about__col about__col-1">
+        <div class="about__box">
+          <h3>Courses</h3>
+          <p>
+            We provide top quality courses put together by professionals which
+            are constantly updated as technologies continue to change
+          </p>
+        </div>
+      </div>
+      <div class="about__col about__col-2">
+        <img src="img/learning.svg" />
+      </div>
+    </div>
+    <div class="about__row about__row-1">
+      <div class="about__col about__col-1">
+        <img src="img/discussion.svg" />
+      </div>
+      <div class="about__col about__col-2">
+        <div class="about__box">
+          <h3>Discussion</h3>
+          <p>
+            You will get access to our discussion boards where you can discuss
+            your projects and education with other students
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="courses" class="courses">
+    <h2>What do we teach?</h2>
+    <div class="courses__row">
+      <div class="courses__col">
+        <img src="img/frontend.svg" />
+        <h3>Frontend</h3>
+        <p>
+          We teach front end technologies to help our students create modern,
+          production-ready websites
+        </p>
+      </div>
+      <div class="courses__col">
+        <img src="img/backend.svg" />
+        <h3>Backend</h3>
+        <p>
+          We also teach back end technologies for those who want to master
+          server side code
+        </p>
+      </div>
+      <div class="courses__col">
+        <img src="img/fullstack.svg" />
+        <h3>Fullstack</h3>
+        <p>
+          For those who want to get the most out of all the courses we have to
+          offer
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="enroll" class="enroll">
+    <div class="enroll__row">
+      <div class="enroll__col enroll__col-1">
+        <img src="img/education.svg" />
+      </div>
+      <div class="enroll__col enroll__col-2">
+        <div class="enroll__box">
+          <h2>Enroll Today</h2>
+          <p>
+            With prices started from only <span>$10 a month</span> you can get
+            access to our courses, get assistance from professional tutors and
+            contribute to our student discussion boards
+          </p>
+          <a class="button" href="">Enroll now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Get in touch</h2>
+    <div class="contact__row">
+      <div class="contact__col">
+        <div class="contact__box">
+          <span
+            ><i class="fa fa-envelope"></i>
+            <p>info@codepro.com</p></span
+          >
+          <span
+            ><i class="fa fa-phone"></i>
+            <p>085 133 1232</p></span
+          >
+          <span
+            ><i class="fa fa-map-marker-alt"></i>
+            <p>19 Galvin Drive Newburgh, NY 12550</p></span
+          >
+        </div>
+      </div>
+      <div class="contact__col">
+        <form>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea
+            name=""
+            placeholder="Your Message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <a href="" class="button button-white">Submit</a>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__row">
+      <a href="">Home</a>
+      <a href="#about">About us</a>
+      <a href="#courses">Courses</a>
+      <a href="#enroll">Enroll</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer__row-2">
+      <hr />
+      <div class="footer__row-2__col">
+        <p>
+          © 2021 Codepro <a class="" href="">Terms of use</a>
+          <a href="">Privacy Policy </a><a href="">Cookie Notice</a>
+        </p>
+        <span
+          ><a href=""><i class="fab fa-facebook-square"></i></a
+          ><a href=""><i class="fab fa-instagram-square"></i></a
+          ><a href=""><i class="fab fa-twitter-square"></i></a
+        ></span>
+      </div>
+    </div>
+  </footer>
+
+  <body></body>
+  <script src="js/index.js"></script>
+</html>

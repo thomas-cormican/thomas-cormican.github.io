@@ -1,0 +1,202 @@
+/* #4C60FF */
+
+body {
+  background-color: #36393f;
+  color: white;
+}
+
+.theme-logo {
+  top: 2%;
+  left: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.top-bar {
+  padding: 50px 20px 70px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+  .top-bar {
+    padding-bottom: 30px;
+  }
+}
+
+.title {
+  display: inline-block;
+}
+
+.title img {
+  width: 80px;
+}
+
+@media screen and (max-width: 450px) {
+  .title img {
+    width: 60px;
+  }
+}
+
+.links {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  font-size: 1.1rem;
+}
+
+.links p {
+  display: inline-block;
+}
+
+.links a {
+  color: #dcddde;
+  text-decoration: none;
+  padding: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .links a {
+    font-size: 0.9rem;
+    padding: 2px;
+  }
+}
+
+.links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#intro h1 {
+  font-weight: 700;
+  font-size: calc(2.4rem + 0.5vw);
+}
+
+#intro h2 {
+  margin-bottom: 40px;
+}
+
+#intro p {
+  line-height: 28px;
+}
+
+.sections {
+  padding: 0px 90px;
+}
+
+@media screen and (max-width: 500px) {
+  .sections {
+    padding: 0px 10px;
+  }
+}
+
+.sub-heading {
+  margin-bottom: 40px;
+}
+
+.skills-image {
+  border-radius: 50%;
+}
+
+hr {
+  color: #dcddde;
+  opacity: 100%;
+  margin-top: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.notice {
+  text-align: center;
+  color: #aeb3b7;
+  font-size: 0.9rem;
+}
+
+.card {
+  background-color: #2f3136;
+  margin: 20px auto;
+}
+
+.portfolio-img {
+  max-width: 100%;
+  margin: 0px auto;
+  border-radius: 4px;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+
+.login-details {
+  color: #4a87ff;
+}
+
+.badge.bg-secondary {
+  margin: 4px;
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+.btn-text {
+  vertical-align: middle;
+}
+
+#portfolio .row {
+  align-items: center;
+}
+
+#contact .row {
+  text-align: center;
+}
+
+#contact p {
+  padding-top: 8px;
+}
+
+.contact-tab {
+  padding-bottom: 40px;
+}
+
+section {
+  padding-top: 30px;
+}
+
+footer {
+  background-color: #2f3136;
+  padding: 40px;
+  text-align: center;
+}
+
+footer a {
+  padding: 8px;
+  text-decoration: none;
+  color: #a6a6a6;
+}
+
+footer a:hover {
+  color: #dcddde;
+}
+
+@media screen and (max-width: 450px) {
+  .footer-links-col {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+.card-buttons {
+  margin-top: 15px;
+}
+
+.card-header {
+  font-weight: 700;
+}
