@@ -68,7 +68,7 @@ body {
   .links a {
     font-size: 0.9rem;
   }
-  
+
   .links p:not(:last-child) {
     margin-right: 8px;
   }
@@ -137,6 +137,16 @@ hr {
   border-radius: 4px;
   transition: transform 0.4s;
   cursor: pointer;
+}
+
+.card-text-link {
+  text-decoration: none;
+  color: #4a87ff;
+}
+
+.card-text-link:hover {
+  text-decoration: none;
+  color: #3b6ed4;
 }
 
 .login-details {
